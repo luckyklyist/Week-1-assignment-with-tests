@@ -7,7 +7,15 @@
 */
 
 function isPalindrome(str) {
-  return true;
+  let reverseStr=str.toUpperCase().split('').reverse().join('').replace(/[\s\W]/g, "");
+  if (str.toUpperCase().replace(/[\s\W]/g, "")===reverseStr || str.length===1){
+    return true
+  }
+  console.log(reverseStr)
+  return false;
 }
 
+console.log(isPalindrome("Mr. Owl ate my metal worm."))
+
 module.exports = isPalindrome;
+
