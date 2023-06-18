@@ -8,7 +8,6 @@ Hint - use Date class exposed in JS
 */
 
 
-
 function calculateTime(n) {
     let starterTime=performance.now();
     let sum=0;

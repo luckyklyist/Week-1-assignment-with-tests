@@ -20,4 +20,3 @@ function isAnagram(str1, str2) {
 console.log(isAnagram("spar","rasp"))
 
 module.exports = isAnagram;
-
